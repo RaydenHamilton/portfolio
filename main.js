@@ -6,7 +6,7 @@ const options = {
 
 	background: {
 		"color": {
-			"value": "#131313"
+			"value": "#111213"
 		},
 	},
 	fullScreen: {

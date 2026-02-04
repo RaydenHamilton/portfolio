@@ -37,6 +37,7 @@ body {
 	user-select: none;
 	/* Standard syntax */
 	margin: 0;
+	background-color: #111213;
 }
 
 
@@ -45,7 +46,7 @@ body {
 }
 
 .char {
-	font-size: 200px;
+	font-size: 180px;
 	line-height: 84%;
 	letter-spacing: -.05em;
 	font-style: normal;
@@ -54,18 +55,18 @@ body {
 	font-weight: bold;
 	width: 50%;
 	text-align: left;
-	transform: translateX(20%);
+	transform: translateX(30%);
 }
 
 .lightLetter {
 	position: absolute;
-	top: 200px;
+	top: 300px;
 	color: #b7ab98;
 }
 
 .boldLetter {
 	position: absolute;
-	top: 360px;
+	top: 440px;
 	color: #eb5939;
 }
 
@@ -79,11 +80,6 @@ body {
 	/* set height */
 }
 
-@media(min-width: 1200px)and (min-width:1728px) {
-	.char {
-		font-size: 250px;
-	}
-}
 
 @media(min-width: 768px)and (max-width:1199.98px) {
 	.char {
