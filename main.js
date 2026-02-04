@@ -40,7 +40,7 @@ const options = {
 			enable: true, // this enables links between particles
 			opacity: 1,
 			distance: 120,
-			color: "#b7ab98",
+			color: "#7c7468",
 			width: 5,
 		},
 		move: {
@@ -54,7 +54,7 @@ const options = {
 			value: { min: 5, max: 8 }, // this sets the size of the particles
 		},
 		color: {
-			value: "#b7ab98", // this sets the color of the particles
+			value: "#7c7468", // this sets the color of the particles
 		},
 	},
 };
