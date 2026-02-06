@@ -58,15 +58,62 @@ body {
 	transform: translateX(30%);
 }
 
+.nameText {
+	position: relative;
+	left: 11px;
+	box-sizing: content-box;
+	color: rgb(183, 171, 152);
+	display: block;
+	font-family: "Avant Garde", sans-serif;
+	font-size: 15.1348px;
+	font-style: normal;
+	font-weight: 700;
+	height: 19.6719px;
+	letter-spacing: 7.56738px;
+	line-height: 19.6752px;
+	rotate: none;
+	scale: none;
+	text-align: left;
+	text-transform: uppercase;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	translate: none;
+}
+
 .lightLetter {
-	position: absolute;
-	top: 300px;
 	color: #b7ab98;
 }
 
-.boldLetter {
+.titleText {
 	position: absolute;
-	top: 440px;
+	top: 10%;
+	left: 45%;
+	transform: translateX(-50%);
+	box-sizing: content-box;
+	color: rgb(183, 171, 152);
+	display: block;
+	font-family: "Avant Garde", sans-serif;
+	font-size: 118.916px;
+	font-style: normal;
+	font-weight: 700;
+	height: 499.453px;
+	letter-spacing: -5.9458px;
+	line-height: 99.8895px;
+	margin-block-end: 0px;
+	margin-block-start: 0px;
+	margin-bottom: 0px;
+	margin-inline-end: 0px;
+	margin-inline-start: 0px;
+	margin-top: 0px;
+	perspective: 300px;
+	text-align: left;
+	text-transform: uppercase;
+	unicode-bidi: isolate;
+	user-select: none;
+	width: 783.328px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.boldLetter {
 	color: #eb5939;
 }
 
@@ -80,6 +127,31 @@ body {
 	/* set height */
 }
 
+.contentBox {
+	position: absolute;
+	top: 105%;
+	width: 100%;
+	height: 1000%;
+}
+
+.links {
+	text-align: center;
+	position: fixed;
+	display: block;
+	left: 20px;
+	bottom: 20px;
+	text-align: right;
+}
+
+.link img {
+	image-rendering: crisp-edges;
+
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	filter: invert(100%);
+	transition: transform 0.3s;
+}
 
 @media(min-width: 768px)and (max-width:1199.98px) {
 	.char {
